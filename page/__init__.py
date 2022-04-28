@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-"""可以使用空格,来让pytest"""
+"""可以使用空格,来让pytest运行多个测试用例"""
 # from tools.read_yaml import read_yaml
 
 """以下为需要的url"""
