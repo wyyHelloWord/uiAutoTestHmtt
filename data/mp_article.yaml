@@ -1,0 +1,6 @@
+mp_article001:
+  input_title: 222222
+  input_content: 222222
+  select_channel: '数据库'
+  expect: '新增文章成功'
+
