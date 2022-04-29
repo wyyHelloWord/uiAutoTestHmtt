@@ -11,7 +11,7 @@ class PageMpArticle(WebBase):
 
     # 关闭警告
     def page_click_warring_close(self):
-        sleep(1)
+        sleep(2)
         self.base_click(page.mp_close_btn)
 
     # 点击 内容管理

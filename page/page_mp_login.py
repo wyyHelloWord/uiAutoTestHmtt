@@ -30,7 +30,7 @@ class PageMpLogin(Base):
     # 组装业务方法
     # def page_mp_login(self, username, code):
     def page_mp_login(self):
-        sleep(1)
+        sleep(3)
         # log.info('正在执行登陆业务,用户名为{},验证码为{}'.format(username, password))
         log.info('正在调用自媒体登陆业务方法')
         # self.page_input_username(username)
@@ -40,9 +40,9 @@ class PageMpLogin(Base):
         self.page_click_login_btn()
 
     def page_mp_login_success(self):
-        sleep(1)
+        sleep(3)
         # log.info('正在执行登陆业务,用户名为{},验证码为{}'.format(username, password))
-        log.info('正在调用自媒体登陆业务方法')
+        log.info('正在调用自媒体登陆依赖方法')
         # self.page_input_username(username)
         # sleep(1)
         # self.page_input_code(code)

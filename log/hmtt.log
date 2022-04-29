@@ -49,3 +49,102 @@
 2022-04-29 02:29:48,786 INFO [root] [base.py (base_get_text:39] - 正在获取元素:('xpath', '//*[contains(text(),"新增文章成功")]')的文本操作
 2022-04-29 02:29:48,787 INFO [root] [base.py (base_find:21] - 正在查找元素:('xpath', '//*[contains(text(),"新增文章成功")]')
 2022-04-29 02:29:50,872 INFO [root] [test02_mp_article.py (teardown_class:22] - 正在关闭driver
+2022-04-29 14:58:53,130 INFO [root] [page_in.py (page_get_PageMpLogin:18] - 正在获取PageMpLogin对象
+2022-04-29 14:58:53,183 INFO [root] [base.py (__init__:16] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="d81059ff2180416a1a8d253808a9c8f4")>
+2022-04-29 14:58:54,188 INFO [root] [page_mp_login.py (page_mp_login:35] - 正在调用自媒体登陆业务方法
+2022-04-29 14:58:54,188 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '.el-button--primary')
+2022-04-29 14:58:54,271 INFO [root] [base.py (base_click:27] - 正在点击元素:('css selector', '.el-button--primary')
+2022-04-29 14:58:54,272 INFO [root] [base.py (base_get_text:39] - 正在获取元素:('css selector', '.user-name')的文本操作
+2022-04-29 14:58:54,273 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '.user-name')
+2022-04-29 14:58:54,861 INFO [root] [test01_mp_login.py (test_mp_login:52] - 正在断言java和python是否相等
+2022-04-29 14:58:54,862 INFO [root] [base.py (base_get_text:39] - 正在获取元素:('css selector', '.user-name')的文本操作
+2022-04-29 14:58:54,862 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '.user-name')
+2022-04-29 14:58:54,941 ERROR [root] [test01_mp_login.py (test_mp_login:55] - 断言失败,错误原因assert 'java' == 'python'
+  - python
+  + java
+2022-04-29 14:58:54,941 INFO [root] [base.py (base_get_img:46] - 正在执行截图操作,文件名为:M:\PycharmProjects\uiAutoTestHmtt\image\2022-04-29_14-58-54_登陆失败.png
+2022-04-29 14:58:57,470 INFO [root] [base.py (base_get_img:49] - 正在将图片写入allure报告中,文件名为:M:\PycharmProjects\uiAutoTestHmtt\image\2022-04-29_14-58-54_登陆失败.png
+2022-04-29 14:59:05,543 INFO [root] [page_in.py (page_get_PageMpLogin:18] - 正在获取PageMpLogin对象
+2022-04-29 14:59:05,544 INFO [root] [base.py (__init__:16] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="8c72d5a5eaa74373569f27fc547f0bc5")>
+2022-04-29 14:59:06,555 INFO [root] [page_mp_login.py (page_mp_login_success:45] - 正在调用自媒体登陆业务方法
+2022-04-29 14:59:06,555 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '.el-button--primary')
+2022-04-29 14:59:06,642 INFO [root] [base.py (base_click:27] - 正在点击元素:('css selector', '.el-button--primary')
+2022-04-29 14:59:06,643 INFO [root] [page_in.py (page_get_PageMpArticle:23] - 正在获取PageMpArticle对象
+2022-04-29 14:59:06,644 INFO [root] [base.py (__init__:16] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="8c72d5a5eaa74373569f27fc547f0bc5")>
+2022-04-29 14:59:07,649 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '.el-notification__closeBtn')
+2022-04-29 14:59:10,366 INFO [root] [test02_mp_article.py (teardown_class:22] - 正在关闭driver
+2022-04-29 15:09:00,237 INFO [root] [page_in.py (page_get_PageMpLogin:18] - 正在获取PageMpLogin对象
+2022-04-29 15:09:00,272 INFO [root] [base.py (__init__:16] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="6b53139263f937528474b506f5c6eb29")>
+2022-04-29 15:09:01,297 INFO [root] [page_mp_login.py (page_mp_login:35] - 正在调用自媒体登陆业务方法
+2022-04-29 15:09:01,297 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '.el-button--primary')
+2022-04-29 15:09:01,347 INFO [root] [base.py (base_click:27] - 正在点击元素:('css selector', '.el-button--primary')
+2022-04-29 15:09:01,348 INFO [root] [base.py (base_get_text:39] - 正在获取元素:('css selector', '.user-name')的文本操作
+2022-04-29 15:09:01,348 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '.user-name')
+2022-04-29 15:09:01,873 INFO [root] [test01_mp_login.py (test_mp_login:52] - 正在断言java和python是否相等
+2022-04-29 15:09:01,873 INFO [root] [base.py (base_get_text:39] - 正在获取元素:('css selector', '.user-name')的文本操作
+2022-04-29 15:09:01,873 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '.user-name')
+2022-04-29 15:09:02,046 ERROR [root] [test01_mp_login.py (test_mp_login:55] - 断言失败,错误原因assert 'java' == 'python'
+  - python
+  + java
+2022-04-29 15:09:02,047 INFO [root] [base.py (base_get_img:46] - 正在执行截图操作,文件名为:M:\PycharmProjects\uiAutoTestHmtt\image\2022-04-29_15-09-02_登陆失败.png
+2022-04-29 15:09:04,416 INFO [root] [base.py (base_get_img:49] - 正在将图片写入allure报告中,文件名为:M:\PycharmProjects\uiAutoTestHmtt\image\2022-04-29_15-09-02_登陆失败.png
+2022-04-29 15:09:14,508 INFO [root] [page_in.py (page_get_PageMpLogin:18] - 正在获取PageMpLogin对象
+2022-04-29 15:09:14,509 INFO [root] [base.py (__init__:16] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="cbbdf382bd675f25fa9d3967b10d5e7c")>
+2022-04-29 15:09:15,511 INFO [root] [page_mp_login.py (page_mp_login_success:45] - 正在调用自媒体登陆业务方法
+2022-04-29 15:09:15,511 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '.el-button--primary')
+2022-04-29 15:09:15,840 INFO [root] [base.py (base_click:27] - 正在点击元素:('css selector', '.el-button--primary')
+2022-04-29 15:09:15,841 INFO [root] [page_in.py (page_get_PageMpArticle:23] - 正在获取PageMpArticle对象
+2022-04-29 15:09:15,842 INFO [root] [base.py (__init__:16] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="cbbdf382bd675f25fa9d3967b10d5e7c")>
+2022-04-29 15:09:15,845 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '.el-notification__closeBtn')
+2022-04-29 15:09:18,642 INFO [root] [test02_mp_article.py (teardown_class:22] - 正在关闭driver
+2022-04-29 15:18:54,088 INFO [root] [page_in.py (page_get_PageMpLogin:18] - 正在获取PageMpLogin对象
+2022-04-29 15:18:54,122 INFO [root] [base.py (__init__:16] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="596aa7c9052873e307b24192fa220f1a")>
+2022-04-29 15:18:57,139 INFO [root] [page_mp_login.py (page_mp_login:35] - 正在调用自媒体登陆业务方法
+2022-04-29 15:18:57,139 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '.el-button--primary')
+2022-04-29 15:18:57,205 INFO [root] [base.py (base_click:27] - 正在点击元素:('css selector', '.el-button--primary')
+2022-04-29 15:18:57,206 INFO [root] [base.py (base_get_text:39] - 正在获取元素:('css selector', '.user-name')的文本操作
+2022-04-29 15:18:57,206 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '.user-name')
+2022-04-29 15:18:59,271 INFO [root] [test01_mp_login.py (test_mp_login:52] - 正在断言java和python是否相等
+2022-04-29 15:18:59,271 INFO [root] [base.py (base_get_text:39] - 正在获取元素:('css selector', '.user-name')的文本操作
+2022-04-29 15:18:59,271 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '.user-name')
+2022-04-29 15:18:59,326 ERROR [root] [test01_mp_login.py (test_mp_login:55] - 断言失败,错误原因assert 'java' == 'python'
+  - python
+  + java
+2022-04-29 15:18:59,330 INFO [root] [base.py (base_get_img:46] - 正在执行截图操作,文件名为:M:\PycharmProjects\uiAutoTestHmtt\image\2022-04-29_15-18-59_登陆失败.png
+2022-04-29 15:19:01,707 INFO [root] [base.py (base_get_img:49] - 正在将图片写入allure报告中,文件名为:M:\PycharmProjects\uiAutoTestHmtt\image\2022-04-29_15-18-59_登陆失败.png
+2022-04-29 15:19:26,537 INFO [root] [page_in.py (page_get_PageMpLogin:18] - 正在获取PageMpLogin对象
+2022-04-29 15:19:26,538 INFO [root] [base.py (__init__:16] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="1088de821fbc06e41934e01835886ac4")>
+2022-04-29 15:19:29,547 INFO [root] [page_mp_login.py (page_mp_login_success:45] - 正在调用自媒体登陆依赖方法
+2022-04-29 15:19:29,547 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '.el-button--primary')
+2022-04-29 15:19:29,588 INFO [root] [base.py (base_click:27] - 正在点击元素:('css selector', '.el-button--primary')
+2022-04-29 15:19:29,588 INFO [root] [page_in.py (page_get_PageMpArticle:23] - 正在获取PageMpArticle对象
+2022-04-29 15:19:29,589 INFO [root] [base.py (__init__:16] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="1088de821fbc06e41934e01835886ac4")>
+2022-04-29 15:19:31,598 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '.el-notification__closeBtn')
+2022-04-29 15:19:31,637 INFO [root] [base.py (base_click:27] - 正在点击元素:('css selector', '.el-notification__closeBtn')
+2022-04-29 15:19:31,661 INFO [root] [page_mp_article.py (page_mp_article:64] - 正在调用发布文章业务,文章标题为:222222,内容为:222222
+2022-04-29 15:19:33,666 INFO [root] [base.py (base_find:21] - 正在查找元素:('xpath', '//*[text()="内容管理"]/..')
+2022-04-29 15:19:33,712 INFO [root] [base.py (base_click:27] - 正在点击元素:('xpath', '//*[text()="内容管理"]/..')
+2022-04-29 15:19:34,723 INFO [root] [base.py (base_find:21] - 正在查找元素:('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-29 15:19:34,765 INFO [root] [base.py (base_click:27] - 正在点击元素:('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-29 15:19:35,780 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '[placeholder="文章名称"]')
+2022-04-29 15:19:35,799 INFO [root] [base.py (base_input:32] - 正在对元素:('css selector', '[placeholder="文章名称"]')执行清空操作
+2022-04-29 15:19:35,829 INFO [root] [base.py (base_input:34] - 正在对元素:('css selector', '[placeholder="文章名称"]')执行输入222222操作
+2022-04-29 15:19:36,909 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '#publishTinymce_ifr')
+2022-04-29 15:19:37,930 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '#tinymce')
+2022-04-29 15:19:37,945 INFO [root] [base.py (base_input:32] - 正在对元素:('css selector', '#tinymce')执行清空操作
+2022-04-29 15:19:37,985 INFO [root] [base.py (base_input:34] - 正在对元素:('css selector', '#tinymce')执行输入222222操作
+2022-04-29 15:19:39,088 INFO [root] [base.py (base_find:21] - 正在查找元素:('xpath', '//*[text()="自动"]/..')
+2022-04-29 15:19:39,132 INFO [root] [base.py (base_click:27] - 正在点击元素:('xpath', '//*[text()="自动"]/..')
+2022-04-29 15:19:40,159 INFO [root] [web_base.py (web_base_click_select:14] - 正在调用web专属方法:点击下拉选择框
+2022-04-29 15:19:40,159 INFO [root] [base.py (base_find:21] - 正在查找元素:('css selector', '[placeholder="请选择"]')
+2022-04-29 15:19:40,215 INFO [root] [base.py (base_click:27] - 正在点击元素:('css selector', '[placeholder="请选择"]')
+2022-04-29 15:19:42,218 INFO [root] [base.py (base_find:21] - 正在查找元素:('xpath', '//*[text()="数据库"]')
+2022-04-29 15:19:42,253 INFO [root] [base.py (base_click:27] - 正在点击元素:('xpath', '//*[text()="数据库"]')
+2022-04-29 15:19:43,273 INFO [root] [base.py (base_find:21] - 正在查找元素:('xpath', '//*[text()="发表"]/..')
+2022-04-29 15:19:43,315 INFO [root] [base.py (base_click:27] - 正在点击元素:('xpath', '//*[text()="发表"]/..')
+2022-04-29 15:19:43,316 INFO [root] [base.py (base_get_text:39] - 正在获取元素:('xpath', '//*[contains(text(),"新增文章成功")]')的文本操作
+2022-04-29 15:19:43,317 INFO [root] [base.py (base_find:21] - 正在查找元素:('xpath', '//*[contains(text(),"新增文章成功")]')
+2022-04-29 15:19:43,845 INFO [root] [test02_mp_article.py (test_mp_article:32] - 正在判断新增文章成功和新增文章成功是否相等
+2022-04-29 15:19:43,845 INFO [root] [base.py (base_get_text:39] - 正在获取元素:('xpath', '//*[contains(text(),"新增文章成功")]')的文本操作
+2022-04-29 15:19:43,845 INFO [root] [base.py (base_find:21] - 正在查找元素:('xpath', '//*[contains(text(),"新增文章成功")]')
+2022-04-29 15:19:45,874 INFO [root] [test02_mp_article.py (teardown_class:22] - 正在关闭driver
