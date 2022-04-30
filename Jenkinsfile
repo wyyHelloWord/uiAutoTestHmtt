@@ -6,8 +6,6 @@ pipeline{
                 bat 'pytest'
             }
         }
-     }
-     stages {
         stage('AllureReport') {
             steps {
                  allure includeProperties: false, jdk: 'jdk-12.0.2', results: [[path: 'report/result']]
