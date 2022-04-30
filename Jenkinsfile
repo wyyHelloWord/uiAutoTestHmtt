@@ -1,8 +1,8 @@
 pipeline{
     agent any
-    stage{
-        stage('uiAutoTestHmtt'){
-            steps{
+     stages {
+        stage('UiAutoTestHmtt') {
+            steps {
                 bat 'pytest'
             }
         }
